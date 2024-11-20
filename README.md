@@ -29,7 +29,7 @@ Define a function to plot the decision boundary and predict the Regression value
 Program to implement the the Logistic Regression Using Gradient Descent.
 Developed by: Sriram K
 Register Number: 212222080052
-
+*/
 
 import pandas as pd
 import numpy as np
@@ -97,7 +97,6 @@ print(y_prednew)
 xnew = np.array([[0, 0, 0, 0, 0, 2, 8, 2, 0, 0, 1, 0]])
 y_prednew = predict(theta, xnew)
 print(y_prednew)
-*/
 ```
 
 ## Output:
